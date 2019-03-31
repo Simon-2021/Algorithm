@@ -1,6 +1,8 @@
 # 输入：一个无序数组
 # 输出：一个从小到大的有序数组
 
+# 选择排序，不断地在数组中寻找最小值，放到排序列表中，直至数组中元素个数为0
+
 def find_smallest(arr):
     low_index = 0
     low = arr[low_index]
